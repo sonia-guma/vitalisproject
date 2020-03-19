@@ -1,9 +1,9 @@
 /* Base */
 body {
   font-family: N26, sans-serif;
-    font-size: 18px;
+    font-size: 16px;
   line-height: 1.4;
-  color: gray;
+  color: #333;
   
 }
 
@@ -33,10 +33,10 @@ h1, h2, h3, h4, h5,
   border-width: 2px; }
 
 .text-black {
-  color: #000 !important; }
+  color: #333 !important; }
 
 .bg-black {
-  background: #000 !important; }
+  background: #333 !important; }
 
 .color-black-opacity-5 {
   color: rgba(0, 0, 0, 0.5); }
@@ -103,8 +103,8 @@ h1, h2, h3, h4, h5,
     box-shadow: 0 4px 20px -5px rgba(66, 133, 244, 0.4); }
     .btn.btn-primary:hover {
       top: -2px;
-      background: #4285f4;
-      border-color: #4285f4;
+      background: #36A28B;
+      border-color: #36A28B;
       color: #fff;
       -webkit-box-shadow: 0 5px 30px -5px rgba(66, 133, 244, 0.7) !important;
       box-shadow: 0 5px 30px -5px rgba(66, 133, 244, 0.7) !important; }
@@ -688,7 +688,7 @@ h1, h2, h3, h4, h5,
     font-style: italic; }
 
 .bg-light {
-  background-color: #C9D7E6; }
+  background-color: #C9D7E6 !important; }
 
 .team-member {
   position: relative;
