@@ -4,7 +4,7 @@ body {
     font-size: 18px;
   line-height: 1.4;
   color: gray;
-  font-weight: 200;
+  
 }
 
 ::-moz-selection {
@@ -25,14 +25,9 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   font-family: "N26", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
-  font-size: 39px;
-  font-weight: 200;
-  line-height: var(--line-height-m);
+  font-size: 20px;
   letter-spacing: -0.4px;
 }
-
-.bg-light {
-  background: #f6f6f6 !important; }
 
 .border-2 {
   border-width: 2px; }
@@ -95,8 +90,9 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
   .btn.btn-primary {
     border-width: 2px;
-    background: #4285f4;
-    border-color: #4285f4;
+    margin-left: 80px;
+    background: #36A28B;
+    border-color: #36A28B;
     color: #fff;
     position: relative;
     top: 0;
@@ -312,7 +308,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #4285f4;
+      color: #36A28B;
       display: inline-block;
       padding: 15px 20px; }
     .site-navbar .site-navigation .site-menu a {
@@ -326,7 +322,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #4285f4; }
+          color: #36A28B; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -488,12 +484,12 @@ h1, h2, h3, h4, h5,
       position: relative;
       color: #212529; }
       .site-mobile-menu .site-nav-wrap a:hover {
-        color: #4285f4; }
+        color: #36A28B; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .active {
-        color: #4285f4; }
+        color: #36A28B; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -531,7 +527,7 @@ h1, h2, h3, h4, h5,
       width: 100%; }
       .site-mobile-menu .site-nav-wrap > li > a {
         padding-left: 20px;
-        font-size: 20px; }
+        font-size: 18px; }
       .site-mobile-menu .site-nav-wrap > li > ul {
         padding: 0;
         margin: 0;
@@ -620,15 +616,18 @@ h1, h2, h3, h4, h5,
   .site-blocks-cover h1 {
     font-size: 3.5rem;
     font-weight: 400;
-    color: #000;
+    color: white;
+    margin-left: 80px;
     font-weight: 900; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
         font-size: 2rem; } }
   .site-blocks-cover p {
-    color: #6c757d;
-    font-size: 1rem;
+    color: white;
+    margin-left: 80px;
+    font-size: 18px;
     font-weight: 300; }
+
   .site-blocks-cover .intro-text {
     font-size: 16px;
     line-height: 1.5; }
@@ -640,7 +639,7 @@ h1, h2, h3, h4, h5,
   position: absolute;
   bottom: 0;
   right: 0;
-  top: 60%;
+  top: 115%;
   -webkit-transform: translateY(-50%) translateX(30%);
   -ms-transform: translateY(-50%) translateX(30%);
   transform: translateY(-50%) translateX(30%); }
@@ -689,7 +688,7 @@ h1, h2, h3, h4, h5,
     font-style: italic; }
 
 .bg-light {
-  background: #ccc; }
+  background-color: #C9D7E6; }
 
 .team-member {
   position: relative;
