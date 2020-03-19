@@ -136,7 +136,13 @@ h1, h2, h3, h4, h5,
     .site-section {
       padding: 5em 0; } }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em 0; 
+  }
+
+  #features-section{
+    background-color: #F5F5F5;
+  }
+
 
 .site-section-heading {
   padding-bottom: 20px;
@@ -1252,7 +1258,7 @@ h1, h2, h3, h4, h5,
 
 .unit-4 {
   padding: 30px;
-  background: #f1f1f1;
+  background: white;
   border-radius: 5px;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -1427,6 +1433,9 @@ h1, h2, h3, h4, h5,
     max-width: 100px;
     margin: 0 auto;
     border-radius: 50%; }
+#testimonials-section{
+  background-color: #CBD7CB !important;
+}
 
 .breadcrumb-custom {
   font-size: 1rem !important; }
