@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     color: white;
     margin-left: 80px;
-    font-weight: 900; }
+    font-weight: 500; }
     @media (max-width: 991.98px) {
       .site-blocks-cover h1 {
         font-size: 2rem; } }
@@ -693,7 +693,7 @@ h1, h2, h3, h4, h5,
     font-style: italic; }
 
 .bg-light {
-  background-color: white !important; }
+  background-color: #C9D7E6 !important; }
 
 .team-member {
   position: relative;
@@ -1793,7 +1793,7 @@ h1, h2, h3, h4, h5,
 .section-title {
   color: #000;
   font-size: 40px;
-  font-weight: 900; }
+  font-weight: 500; }
   @media (max-width: 991.98px) {
     .section-title {
       font-size: 30px; } }
@@ -1831,7 +1831,7 @@ h1, h2, h3, h4, h5,
 
 .feature-big h2 {
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 500;
   margin-bottom: 30px; }
 
 .author-box {
@@ -1841,7 +1841,7 @@ h1, h2, h3, h4, h5,
   padding: 20px;
   background-color: #F5F5F5;
   border: 1px solid #F5F5F5;
-  border-left: 10px solid #C4D0A3; }
+  border-left: 10px solid #36A28B; }
   .author-box *:last-child {
     margin-bottom: 0; }
   .author-box img {
