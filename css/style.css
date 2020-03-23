@@ -8,6 +8,14 @@ body {
   
 }
 
+.mb-01{
+  font-size: 12px !important;
+}
+
+.mb-0{
+  font-size: 20px !important;
+}
+
 #fondo{
   background-color: #36A28B;
 }
