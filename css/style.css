@@ -8,7 +8,16 @@ body {
   
 }
 
-#fondo{
+#video_style {
+  max-width: 100%;
+  height: auto;
+}
+
+#video_container video {
+    transition: all 8s ease-in-out;
+}
+
+#fondo {
   background-color: #36A28B;
 }
 
