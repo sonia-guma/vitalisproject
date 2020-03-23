@@ -92,12 +92,15 @@ h1, h2, h3, h4, h5,
 
 .btn {
   font-size: 16px;
+  font-weight: 500 !important;
   border-radius: 30px;
   padding: 10px 30px; }
   .btn:hover, .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
+    box-shadow: none !important;
+    background: #F3FBF9 !important;
+    border-color: #F3FBF9 !important; }
   .btn.btn-primary {
     border-width: 2px;
     background: #9DD4C8;
@@ -110,8 +113,8 @@ h1, h2, h3, h4, h5,
     transition: .3s all ease;}
     .btn.btn-primary:hover {
       top: -2px;
-      background: #9DD4C8;
-      border-color: #9DD4C8;
+      background: #F3FBF9;
+      border-color: #F3FBF9;
       color: #257564;
       -webkit-box-shadow: 0 5px 30px -5px rgba(27, 27, 27, 100) !important;
       box-shadow: 0 5px 30px -5px rgba(27, 27, 27, 100) !important; }
