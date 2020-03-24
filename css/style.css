@@ -35,6 +35,11 @@ padding: 0px;
   background-color: #C9D7E6;
 }
 
+.testimonio{
+  margin: 25px !important;
+  font-size: 1.2rem !important;
+}
+
 ::-moz-selection {
   background: #000;
   color: #fff; }
