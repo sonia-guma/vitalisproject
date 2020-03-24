@@ -7,14 +7,16 @@ body {
   background-color: white;
   
 }
-
+/*VIDEO SECTION*/
 #video_style {
-  max-width: 100%;
-  height: auto;
+  position: center;
+  right: 0;
+ /* bottom: 0;*/
+ padding-top:105px;
 }
-
-#video_container video {
-    transition: all 8s ease-in-out;
+.video_wrapper{
+position: absolute;
+padding: 0px;
 }
 
 #fondo {
